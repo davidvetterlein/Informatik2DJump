@@ -29,7 +29,7 @@ public class steuerung : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		if (rechts == true) {
 			gameObject.transform.position += new Vector3 (speed, 0, 0);
 		}
